@@ -188,8 +188,7 @@
 import mongoose from "mongoose";
 
 // establish connection
-mongoose
-  .connect(
+mongoose.connect(
     "mongodb+srv://s202253960_db_user:cDG0EAtePJNMrOGN@cluster0.p8nkj4z.mongodb.net/TestDB",
   )
   .then(() => console.log("Connected to MongoDB"))
